@@ -4,7 +4,7 @@
     font-family: 'JakartaSansPlus';
     font-display: swap;
     font-weight: 100 900;
-    src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf) format(truetype);
+    src: url(assets/fonts/PlusJakartaSans-VariableFont_wght.ttf) format('truetype');
 }
 
 /* Variables */
@@ -113,4 +113,16 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+
+/* General Styling */
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--fs-body);
+    color: var(--clr-neutral-400);
+}
+
+/* Utility Classes */
+
+
 
